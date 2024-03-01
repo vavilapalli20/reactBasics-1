@@ -1,0 +1,25 @@
+
+.Box{
+    width: 100px;
+    height: 100px;
+}
+
+.Red{
+    background-color: red;
+}
+
+.Blue{
+    background-color: blue;
+    position: absolute;
+   /* visibility: hidden; */
+}
+
+.Green{
+    background-color: green;
+    position: absolute;
+    top: 0px;
+}
+
+.Orange{
+    background-color: orange;
+}
