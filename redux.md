@@ -1,3 +1,6 @@
+
+do use redux for small projects we can use state variables but for large products or projects we can use redux and with this we use this  without state variables and using this is the best practice
+
 we should install 2 libraries for redux tool kit
 we use redux to save the data of a logged in user and when we log out the information should be deleted
 ->  npm i -D @reduxjs/toolkit
@@ -57,7 +60,7 @@ now we will write a dispatch function in signup, signin and sign out and instead
     },[]); 
     
 
----- movie slice
+---- this is for movies
 import { createSlice } from "@reduxjs/toolkit";
 
 const moviesSlice = createSlice({
